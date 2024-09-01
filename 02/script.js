@@ -49,3 +49,14 @@ console.log('333' + 22);
 console.log('233' * 12);
 
 console.log(typeof('23' + 33));
+
+let ages = 20;
+const gender = 'male';
+
+if(ages >= 18 && gender == 'male') {
+    console.log('You are adult man');
+}
+
+if(ages >= 18 || gender == "female") {
+  console.log("You are adult man or a gay");
+}
